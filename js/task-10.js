@@ -28,7 +28,5 @@ function createBoxes(amount) {
   return boxes.insertAdjacentHTML("afterbegin", markup);
 }
 function destroyBoxes() {
- const boxAll = document.querySelectorAll('#boxes div');
-  boxAll.forEach(box => box.remove());
-  inputNumber.value = 0;
+  boxes.innerHTML = "";
 };
