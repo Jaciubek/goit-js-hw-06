@@ -22,15 +22,4 @@ button {
   padding: 8px 12px;
   cursor: pointer;
 }
-.galery {
-  display: flex;
-  flex-wrap: wrap;
-  list-style: none;
-  align-items: center;
-  justify-content: center;
-  gap: 15px;
-}
-.galery img {
-  max-width: 350 px;
-}
 
